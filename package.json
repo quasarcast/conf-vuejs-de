@@ -1,0 +1,40 @@
+{
+  "name": "quasar-modes-demo",
+  "version": "0.0.1",
+  "description": "Quasar Modes Demo",
+  "productName": "Quasar Modes Demo",
+  "author": "Luke Diebold <luke@ldiebold.com>",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./",
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build"
+  },
+  "dependencies": {
+    "pinia": "^2.0.11",
+    "@quasar/extras": "^1.16.4",
+    "quasar": "^2.16.0",
+    "vue": "^3.4.18",
+    "vue-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "vite-plugin-checker": "^0.7.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "@quasar/app-vite": "^2.0.0-beta.12",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.14"
+  },
+  "engines": {
+    "node": "^24 || ^22 || ^20 || ^18",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "packageManager": "pnpm@9.8.0+sha512.8e4c3550fb500e808dbc30bb0ce4dd1eb614e30b1c55245f211591ec2cdf9c611cabd34e1364b42f564bd54b3945ed0f49d61d1bbf2ec9bd74b866fcdc723276"
+}
