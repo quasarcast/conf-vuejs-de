@@ -1,15 +1,15 @@
+<script setup>
+import { BleClient } from '@capacitor-community/bluetooth-le'
+import { ref } from 'vue'
+
+//
+
+const mode = process.env.MODE
+</script>
+
 <template>
-  <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 200px"
-    >
+  <q-page class="column flex-center">
+    <h1>💚 Vue!</h1>
+    <h2>{{ mode }}</h2>
   </q-page>
 </template>
-
-<script setup>
-defineOptions({
-  name: 'IndexPage'
-})
-</script>

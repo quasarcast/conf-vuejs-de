@@ -66,6 +66,9 @@ export default configure((/* ctx */) => {
         ['vite-plugin-checker', {
           eslint: {
             lintCommand: 'eslint "./**/*.{js,mjs,cjs,vue}"'
+          },
+          overlay: {
+            initialIsOpen: false
           }
         }, { server: false }]
       ]
@@ -129,7 +132,7 @@ export default configure((/* ctx */) => {
       // manualStoreHydration: true,
       // manualPostHydrationTrigger: true,
 
-      pwa: false
+      pwa: true
 
       // pwaOfflineHtmlFilename: 'offline.html', // do NOT use index.html as name!
       // will mess up SSR
