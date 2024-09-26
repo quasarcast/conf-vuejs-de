@@ -59,6 +59,7 @@ module.exports = {
     'one-var': 'off',
     'no-void': 'off',
     'multiline-ternary': 'off',
+    'no-async-promise-executor': 'off',
 
     'import/first': 'off',
     'import/named': 'error',

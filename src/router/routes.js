@@ -12,7 +12,18 @@ const routes = [
     children: [
       {
         path: '',
+        name: 'home',
         component: () => import('pages/IndexPage.vue')
+      },
+      {
+        path: 'qr-scan',
+        name: 'qr-scan',
+        component: () => import('pages/QrScanPage.vue')
+      },
+      {
+        path: 'bluetooth',
+        name: 'bluetooth',
+        component: () => import('pages/BluetoothPage.vue')
       },
       {
         path: 'table',

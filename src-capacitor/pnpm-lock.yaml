@@ -11,6 +11,9 @@ importers:
       '@capacitor-community/bluetooth-le':
         specifier: ^6.0.1
         version: 6.0.1(@capacitor/core@6.1.2)
+      '@capacitor-mlkit/barcode-scanning':
+        specifier: ^6.1.0
+        version: 6.1.0(@capacitor/core@6.1.2)
       '@capacitor/android':
         specifier: ^6.1.2
         version: 6.1.2(@capacitor/core@6.1.2)
@@ -28,6 +31,11 @@ packages:
 
   '@capacitor-community/bluetooth-le@6.0.1':
     resolution: {integrity: sha512-ouMSW6ymhB4KAhl2uAcxWNGhMj5onqopQdixGyW8PWOc+KxpCnqkQNZ6MzRuGZUJUfdiJ28p6p64FAoTH2cy+Q==}
+    peerDependencies:
+      '@capacitor/core': ^6.0.0
+
+  '@capacitor-mlkit/barcode-scanning@6.1.0':
+    resolution: {integrity: sha512-jQWPv5AOprmomgDx2IMmOq1iV2J3xpSIN7oUL9nJzPB0iNhWLm0u5NP+MckRPvTVmyFCsDhZjXeAycRPW92suA==}
     peerDependencies:
       '@capacitor/core': ^6.0.0
 
@@ -427,6 +435,10 @@ snapshots:
     dependencies:
       '@capacitor/core': 6.1.2
       '@types/web-bluetooth': 0.0.20
+
+  '@capacitor-mlkit/barcode-scanning@6.1.0(@capacitor/core@6.1.2)':
+    dependencies:
+      '@capacitor/core': 6.1.2
 
   '@capacitor/android@6.1.2(@capacitor/core@6.1.2)':
     dependencies:
