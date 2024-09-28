@@ -70,8 +70,7 @@ export default configure((/* ctx */) => {
           overlay: {
             initialIsOpen: false
           }
-        }, { server: false }],
-        ['vite-plugin-vue-devtools', {}]
+        }, { server: false }]
       ]
     },
 
