@@ -1,5 +1,7 @@
 <script setup>
-import { BleClient } from '@capacitor-community/bluetooth-le'
+import {
+  BleClient
+} from '@capacitor-community/bluetooth-le'
 import { ref } from 'vue'
 
 const scanning = ref(false)
